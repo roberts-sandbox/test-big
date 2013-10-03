@@ -1,1 +1,0 @@
-KERNEL=="sd?1", SUBSYSTEM=="block", ATTRS{model}=="DataTraveler 2.0", SYMLINK+="backup", RUN+="/usr/local/bin/backup.sh"
